@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/diamond_hoe"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 110000000}, "model": "custom:ringslot"},
+        {"predicate": {"custom_model_data": 110000001}, "model": "custom:necklaceslot"},
+        {"predicate": {"custom_model_data": 110000002}, "model": "custom:artifactslot"}
+    ]
+}
